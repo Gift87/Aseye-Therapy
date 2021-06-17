@@ -1,0 +1,533 @@
+body,html {
+    height:100%;
+    width:100%;
+}
+ *,*:before,*:after {
+     font-family:body;
+     margin:0;
+     padding:0;
+     box-sizing:border-box;
+ }
+
+
+.lavender {
+    width:100%;
+   
+    
+}
+
+#lavender-hero{
+    width:100%;
+    animation:fadeIn 3s;
+}
+/*Fade In animation*/
+@keyframes fadeIn{
+    from{
+        opacity:0;
+    }
+
+    to{opacity:1;
+    }
+}
+
+.invite{
+    width:100%;
+    background-color: #95d4e4;
+    text-align:center;
+    padding:5%;
+    margin:auto;
+    font-family:'Nunito' , sans-serif;
+  }
+
+  .main-body{
+      font-family: Raleway, "Trebuchet MS","Lucida Grande","Lucida Sans Unicode","Lucida Sans",Tahoma, sans-serif;
+      line-height: 1.618;
+      font-size:3vw;
+      
+  }
+
+
+  #first-text{
+    padding-left: 10%;
+    padding-right: 10%;
+    margin-bottom:45px;
+    }
+
+    .title{
+      font-size: 9vw;
+      font-family: 'ubuntu', Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    
+    }
+
+    #who{
+        margin-top:70px;
+        margin:auto;
+    }
+    .who{
+        padding-top:70px;
+        margin:auto;
+        text-align:center;
+        font-size: 5vw;
+    }
+    
+    .everyone{
+        font-family: 'ubuntu', Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+        font-style: bold;
+        font-size: 10vw;
+        margin-bottom:auto;
+        text-align:center;
+        line-height:.8;
+        color:#76cfe1;
+    }
+
+    .everyone-picture{
+        margin-top: 70px;
+        align-content:center;
+        
+        margin-bottom:50px;
+    }
+
+    .group-picture{
+        width:100%;
+    }
+
+    .services-wrapper{
+        padding-top: 40px;
+        background-color: #f2e4d9;
+        padding-bottom:30px;
+    }
+    #services{
+        padding-top: 50px;
+        
+        
+    }
+    
+    .therapy-image{
+        width:70vw;
+        border-radius: 14px;  
+    }
+
+    .grid-image-wrapper{
+        margin:auto;
+        margin-left: 15%;
+        margin-right:15%;
+        margin-top:30px;
+    }
+
+     .card1{
+        
+         justify-content: center; 
+         align-content:center;
+         margin-top:65px;
+        }
+
+    .card2{
+        margin-top:65px;
+    }
+
+    .card3{
+        margin-top:65px;
+    }
+
+    .testimonials-wrapper{
+        padding-top: 40px;
+        background-color: #bc96c5;
+        padding-bottom:60px;
+    }
+
+    #testimonials{
+        padding-top: 50px;
+    }
+
+    .testimonial-picture{
+        width:15vw;
+        padding-right:15%;
+    }
+    
+    .grid2{
+        display:grid;
+        grid-row-gap:5%;
+        grid-template-columns:20% 70%;
+       
+    }
+
+    #testimonial-quote-wrapper{
+        align-content:center;
+        padding:10%;
+        margin-top: 30px;
+    }
+
+    .how-can-wrapper{
+        background-color:#67445a;
+        padding-left: 10%;
+        padding-right: 10%;
+        margin-bottom:45px;
+        padding-top: 50px;
+    }
+
+    #how-can-body{
+        padding-top:47px;
+        color:white;
+        padding-bottom:47px;
+    }
+   
+    #talk{
+        text-align:center;
+        padding-left:10%;
+        padding-right:10%;
+        font-size:6vw;
+    }
+
+    #talk2{
+        text-align:center;
+        padding-left:10%;
+        padding-right:10%;
+        padding-top:30px;
+        font-size:6vw;
+    }
+    
+    
+    .emergencies{
+        padding-top:90px;
+        padding-bottom:20px;
+        padding-left:10%;
+        padding-right:10%;
+        text-align:center;
+        color:red;
+    }
+
+    .footer{
+        background-color:black;
+        color:white;
+        margin:auto;
+        height:40px;
+       text-align:center;
+    }
+
+ /* SPANISH SPEAKING POP-UP */
+ .sticky-notify {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    padding: 0.625rem;
+    background: linear-gradient(114deg, #c59df3, #673ab7, #0ac2d3);
+    background-size: 600% 600%;
+    -webkit-animation: color-cycle 28s ease infinite;
+    animation: color-cycle 28s ease infinite;
+  }
+  .sticky-notify .notify-close {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    color: #673ab7;
+    display: block;
+    height: 100%;
+    font-size: 1.5rem;
+    line-height: 1.5;
+    padding: 0 1.25rem;
+    cursor: pointer;
+  }
+  .sticky-notify p {
+    color: white;
+    text-align: center;
+    padding: 0 2.125rem;
+  }
+  
+  .remove {
+    -webkit-transform: translateY(200%);
+            transform: translateY(200%);
+    transition: 0.5s ease-in-out;
+    -webkit-animation: none;
+            animation: none;
+          
+  }
+
+   /* CONSULTATION PAGE */
+
+   #consulttitle{
+    font-style: bold;
+    font-size: 10vw;
+    margin-bottom:auto;
+    text-align:center;
+    line-height:.8;
+    color:#76cfe1;
+
+       padding-top:70px;
+       margin-bottom:45px;
+       font-family: 'ubuntu', Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+   }
+
+   #consult-question{
+    padding-left: 10%;
+    padding-right: 10%;
+    color:#67445a
+   
+   }
+
+   #first-text2{
+    padding-left: 10%;
+    padding-right: 10%;
+    margin-top:65px;
+    }
+    #first-text3{
+        padding-left: 10%;
+        padding-right: 10%;
+        margin-top:35px;
+        }
+        #consult-are-fun{
+            line-height:1;
+            padding-left:10%;
+            padding-right:10%;
+            font-size:5vw;
+            text-align: center;
+            padding-top:35px;
+            color:#bc96c5;
+
+            
+        }
+        .gallery-wrapper{
+            padding-bottom:30px;
+        }
+
+        #gallery{
+            padding-top: 50px;
+            
+        }
+
+        #consult-testimonial-wrapper{
+           
+        background-color: #67445a;
+        padding-bottom:125px;
+        color:white;
+        }
+
+        #talk3{
+            text-align:center;
+            padding-left:10%;
+            padding-right:10%;
+            padding-top:30px;
+            font-size:6vw;
+            padding-top:40px;
+        }
+
+        .consult-footer{
+            background-color:black;
+            color:white;
+            margin:auto;
+            height:40px;
+           text-align:center;
+           position:relative;
+           top:30px;
+        }
+        .aseye-img-wrapper{
+            margin:auto;
+            align-content:center;
+            width:100%;
+            padding-left:40%;
+            margin-top:30px;
+            margin-bottom:30px;
+        }
+
+        .aseye-image{
+           
+         width:25vw;
+          margin:auto;
+            
+        }
+
+        .talk-wrapper{
+            width:100%;
+            margin:auto;
+
+        }
+
+    /* THERAPY PAGE */
+
+    #consulttitle{
+        font-style: bold;
+        font-size: 10vw;
+        margin-bottom:auto;
+        text-align:center;
+        line-height:.8;
+        color:#76cfe1;
+    
+           padding-top:70px;
+           margin-bottom:45px;
+           font-family: 'ubuntu', Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+       }
+    
+       #therapy-question{
+        padding-left: 10%;
+        padding-right: 10%;
+        color:#67445a;
+        text-align:center;
+       
+       }
+    
+       #first-text2{
+        padding-left: 10%;
+        padding-right: 10%;
+        margin-top:65px;
+        }
+        #first-text3{
+            padding-left: 10%;
+            padding-right: 10%;
+            margin-top:35px;
+            }
+            #consult-are-fun{
+                line-height:1;
+                padding-left:10%;
+                padding-right:10%;
+                font-size:5vw;
+                text-align: center;
+                padding-top:35px;
+                color:#bc96c5;
+    
+                
+            }
+            .gallery-wrapper{
+                padding-bottom:30px;
+            }
+            #gallery{
+                padding-top: 50px;
+                
+            }
+
+            .grid-gallery-wrapper{
+                margin:auto;
+                width:100%;
+                align-content:center;
+                justify-content:center;
+                padding-left:9%; 
+            }
+            
+    
+            #therapy-testimonial-wrapper{
+               
+            background-color: #76cfe1;
+            padding-bottom:125px;
+            color:white;
+            }
+    
+            #talk3{
+                text-align:center;
+                padding-left:10%;
+                padding-right:10%;
+                padding-top:30px;
+                font-size:6vw;
+                padding-top:40px;
+            }
+    
+            .main-script{
+                margin-bottom:80px;
+                align-content: center;
+                text-align:center;
+            }
+    
+            .main-body-bold{
+                font-weight:bold;
+                font-family: Raleway, "Trebuchet MS","Lucida Grande","Lucida Sans Unicode","Lucida Sans",Tahoma, sans-serif;
+                line-height: 1.618;
+                font-size:3vw; 
+            }
+
+            #beige-testimonial-wrapper {
+            background-color: #f2e4d9;
+            padding-bottom:125px;
+            color:black;
+            }
+
+            /*Gallery */
+            #photos {
+                opacity: .88;
+              }
+              
+              #photos img {
+                width: 30%;
+                float: left;
+                display: block;
+                margin: 2px;
+              }
+              
+              ul {
+                list-style: none;
+                margin: 0px auto;
+                padding: 10px;
+                display: block;
+                max-width: 780px;
+                text-align: center;
+              }
+              
+              #overlay {
+                background: rgba(0,0,0, .8);
+                width: 100%;
+                height: 100%;
+                position: absolute;
+                top: 0;
+                left: 0;
+                display: none;
+                text-align: center;
+              }
+              
+              #overlay img {
+                margin: 10% auto 0;
+                width: 550px;
+                border-radius: 5px;
+              }
+              
+              #photos {
+                width: 100%;
+              }
+              
+              #photo-gallery {
+                width: 100%;
+              }
+
+                
+                    
+                       
+
+                    
+
+                    .gallery {
+                        -webkit-column-count: 3;
+                        -moz-column-count: 3;
+                        column-count: 3;
+                        -webkit-column-width: 33%;
+                        -moz-column-width: 33%;
+                        column-width: 33%; }
+                        .gallery .pics {
+                        -webkit-transition: all 350ms ease;
+                        transition: all 350ms ease; }
+                        .gallery .animation {
+                        -webkit-transform: scale(1);
+                        -ms-transform: scale(1);
+                        transform: scale(1); }
+                        
+                        @media (max-width: 450px) {
+                        .gallery {
+                        -webkit-column-count: 1;
+                        -moz-column-count: 1;
+                        column-count: 1;
+                        -webkit-column-width: 100%;
+                        -moz-column-width: 100%;
+                        column-width: 100%;
+                        }
+                        }
+                        
+                        @media (max-width: 400px) {
+                        .btn.filter {
+                        padding-left: 1.1rem;
+                        padding-right: 1.1rem;
+                        }
+                        }
+                        Lightbox gallery 
+
+                        .gaallery-box:{
+                            width:100%;
+                            padding:20%;
+                        }
+                       
+
